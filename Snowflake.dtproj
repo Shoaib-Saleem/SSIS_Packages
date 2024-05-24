@@ -26,11 +26,11 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">CSPKAM00000874</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA81yHv+2UsUGls7ZR5Pm32AAAAAACAAAAAAADZgAAwAAAABAAAAC2U+DzYJzPT6Sd2OxxTB2VAAAAAASAAACgAAAAEAAAAACBv0r4C3NNvGsqf04SQ4mIAAAAjoaXuGrDxmZP4dujKvz/hEM2Yr6tPzBSekyUZbEDyGbYhRxcfWN9MXjRHoIDVC+tCj0mxkZ856WnjkEJLItc7PZs/5WDcbWtHcczOak+ZZgNpa7P39Wkb/4NX1SDvgIlenataJgGiAz8pGUDEwEex1WMF8z4dSA3o36Efylmcb+4wxQ8gDPdrxQAAACyN0gN2D+4dOh6KieI2BcIjNPnsQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA81yHv+2UsUGls7ZR5Pm32AAAAAACAAAAAAADZgAAwAAAABAAAAAv3xRg0GzwTE8PC3Pq8xcSAAAAAASAAACgAAAAEAAAAO/FFadrk6zJpVEW27ZKE1WIAAAANSqXx68d0Mg5zYMSIsgukOGRX7Gbi4Tyz2Y138heO6ZbKEh6sbD+1vEIgWBd9rpIsBzC7xAyH30QRdhXq/B81IhTprOMPzLOTcVayluMzgl/dXUZXGfQH0dqmPuRrgAUWDcGMTRQM3NoOrwejrOMh80boBUsBrFMs+xUThefidk/LjulERL8YhQAAABaptuhRUtgMV7isUWxZS9/7ZIaig==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package1.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Lookup.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="CSPKAM00000874.School1.conmgr" />
@@ -157,16 +157,16 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package1.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Lookup.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{07F3A5B3-19DF-4466-BF36-D97BE356A90D}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{5C59699C-338C-4059-B28E-895C6F7AD386}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Lookup</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{7168F5B7-3A9B-49CE-B355-3E5A9902FF29}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{240EC284-E96D-4FE0-B825-260DCDBCF6A2}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
